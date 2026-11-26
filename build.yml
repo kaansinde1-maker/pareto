@@ -1,0 +1,45 @@
+name: Debug APK
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+
+# Release oluşturmak için gerekli izin
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Build debug APK
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleDebug --stacktrace
+
+      # Actions çalıştırma sayfasında "Artifacts" olarak da kalır
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pareto-debug-apk
+          path: app/build/outputs/apk/debug/*.apk
+
+      # Her başarılı push için Releases sayfasında APK'lı bir sürüm oluşturur
+      - name: Publish release
+        if: github.event_name == 'push'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: build-${{ github.run_number }}
+          name: Build ${{ github.run_number }}
+          prerelease: true
+          files: app/build/outputs/apk/debug/*.apk
