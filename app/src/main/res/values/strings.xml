@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">80/20</string>
+
+    <string name="tag_investment">Yatırım</string>
+    <string name="tag_consumption">Tüketim</string>
+
+    <string name="default_category_game">Oyun</string>
+    <string name="default_category_youtube">YouTube</string>
+    <string name="default_category_reading">Kitap Okumak</string>
+    <string name="default_category_sport">Spor</string>
+    <string name="default_category_notes">Not Tutmak</string>
+
+    <string name="notification_channel_name">Çalışan zamanlayıcı</string>
+    <string name="notification_running">Zamanlayıcı çalışıyor</string>
+    <string name="action_stop">Durdur</string>
+    <string name="action_discard">Sil</string>
+
+    <string name="discard_dialog_title">Bu süre silinsin mi?</string>
+    <string name="discard_dialog_message">Şu ana kadar geçen süre kaydedilmeyecek ve hiçbir grafikte görünmeyecek.</string>
+    <string name="discard_dialog_confirm">Süreyi sil</string>
+    <string name="discard_dialog_keep">Devam et</string>
+    <string name="dialog_dismiss">Vazgeç</string>
+
+    <string name="nav_home">Ana Sayfa</string>
+    <string name="nav_charts">Grafik</string>
+    <string name="nav_goals">Hedefler</string>
+
+    <string name="home_edit">Düzenle</string>
+    <string name="home_done">Bitti</string>
+    <string name="home_empty_title">Henüz kategori yok</string>
+    <string name="home_empty_hint">Başlamak için + ile bir kategori ekle.</string>
+    <string name="home_today">Bugün: %1$s</string>
+    <string name="desc_archive">Arşiv</string>
+    <string name="desc_add_category">Kategori ekle</string>
+    <string name="desc_edit_category">Kategoriyi düzenle</string>
+    <string name="desc_start_timer">Zamanlayıcıyı başlat</string>
+    <string name="desc_stop_timer">Durdur ve kaydet</string>
+    <string name="desc_discard_timer">Süreyi sil</string>
+    <string name="desc_back">Geri</string>
+
+    <string name="duration_hm">%1$d sa %2$d dk</string>
+    <string name="duration_h">%1$d sa</string>
+    <string name="duration_m">%1$d dk</string>
+    <string name="duration_s">%1$d sn</string>
+
+    <string name="editor_title_new">Yeni kategori</string>
+    <string name="editor_title_edit">Kategoriyi düzenle</string>
+    <string name="editor_name_label">Kategori adı</string>
+    <string name="editor_tag_label">Etiket</string>
+    <string name="editor_color_label">Renk</string>
+    <string name="editor_save">Kaydet</string>
+    <string name="editor_archive">Arşivle</string>
+    <string name="editor_name_taken">Bu isimde bir kategori zaten var.</string>
+    <string name="editor_name_taken_archived">Bu isimde arşivlenmiş bir kategori var.</string>
+    <string name="editor_restore">Geri yükle</string>
+
+    <string name="archive_confirm_title">Kategori arşivlensin mi?</string>
+    <string name="archive_confirm_message">Ana ekrandan kalkar, geçmiş kayıtlar grafiklerde kalır. Arşivden geri yükleyebilirsin.</string>
+    <string name="archive_confirm_confirm">Arşivle</string>
+
+    <string name="archive_title">Arşiv</string>
+    <string name="archive_empty">Arşivde kategori yok.</string>
+    <string name="archive_restore">Geri yükle</string>
+    <string name="archive_delete">Kalıcı sil</string>
+    <string name="delete_confirm_title">Kalıcı olarak silinsin mi?</string>
+    <string name="delete_confirm_message">“%1$s” ve bu kategoriye ait tüm kayıtlar ile hedefler silinecek. Bu işlem geri alınamaz.</string>
+    <string name="delete_confirm_confirm">Sil</string>
+
+    <string name="charts_menu">Menü</string>
+    <string name="charts_export">Verileri dışa aktar</string>
+    <string name="charts_export_done">Dışa aktarıldı</string>
+    <string name="charts_export_failed">Dışa aktarma başarısız oldu</string>
+
+    <string name="filter_daily">Günlük</string>
+    <string name="filter_weekly">Haftalık</string>
+    <string name="filter_monthly">Aylık</string>
+    <string name="filter_all_time">Tüm Zamanlar</string>
+    <string name="filter_custom">Özel</string>
+    <string name="desc_previous_period">Önceki dönem</string>
+    <string name="desc_next_period">Sonraki dönem</string>
+
+    <string name="charts_total_time">Toplam Süre</string>
+    <string name="grouping_tag">Etiket</string>
+    <string name="grouping_category">Kategori</string>
+    <string name="chart_type_pie">Pasta</string>
+    <string name="chart_type_bar">Çubuk</string>
+    <string name="tag_filter_all">Hepsi</string>
+    <string name="charts_empty">Bu dönemde kayıt yok</string>
+    <string name="charts_archived_suffix">arşiv</string>
+    <string name="charts_pick_range">Tarih aralığı seç</string>
+    <string name="charts_pick_confirm">Tamam</string>
+
+    <string name="goals_empty_title">Henüz hedef yok</string>
+    <string name="goals_empty_hint">Başlamak için + ile bir hedef ekle.</string>
+    <string name="desc_add_goal">Hedef ekle</string>
+    <string name="goal_type_min">En az</string>
+    <string name="goal_type_max">En çok</string>
+    <string name="goal_subtitle">%1$s %2$s</string>
+    <string name="goal_progress">%1$s / %2$s</string>
+    <string name="goal_category_archived">Kategori arşivde</string>
+
+    <string name="goal_editor_title_new">Yeni hedef</string>
+    <string name="goal_editor_title_edit">Hedefi düzenle</string>
+    <string name="goal_scope_label">Kapsam</string>
+    <string name="goal_period_label">Dönem</string>
+    <string name="goal_type_label">Hedef tipi</string>
+    <string name="goal_target_label">Süre</string>
+    <string name="goal_hours">Saat</string>
+    <string name="goal_minutes">Dakika</string>
+    <string name="goal_duplicate">Bu kapsam, dönem ve tip için zaten bir hedef var.</string>
+    <string name="goal_no_categories">Seçilecek kategori yok.</string>
+    <string name="goal_delete">Sil</string>
+    <string name="goal_delete_confirm_title">Hedef silinsin mi?</string>
+    <string name="goal_delete_confirm_message">Bu hedef kalıcı olarak silinecek.</string>
+
+    <string name="focus_label">Odak</string>
+
+    <string name="obsidian_pick_folder">Obsidian klasörünü seç</string>
+    <string name="obsidian_sync_now">Obsidian’a şimdi yaz</string>
+    <string name="obsidian_rewrite_all">Obsidian’ı baştan yaz</string>
+    <string name="obsidian_done">Obsidian’a yazıldı</string>
+    <string name="obsidian_failed">Obsidian klasörüne yazılamadı</string>
+    <string name="obsidian_not_configured">Önce Obsidian klasörünü seç</string>
+</resources>
